@@ -29,26 +29,6 @@ npm audit fix
 
 5. Change API url in `.env`.
 
-## Setup for React-Native app
-
-1. Go to the [React Native environment setup](https://reactnative.dev/docs/environment-setup), then select `React Native CLI Quickstart` tab.  
-
-2. Install dependencies
-
-```bash
-cd mobile-app
-yarn install
-```
-
-  - 2.1 Only for mac users
-```bash
-cd ios && pod install && cd ../
-```
-
-3. Copy `.env.example` as `.env`.
-
-4. Change API url in `.env`.
-
 ## Training the Model
 
 1. Download the data 
@@ -90,7 +70,7 @@ uvicorn main:app --reload --host 0.0.0.0
 cd api
 ```
 
-2. Copy the `models.config.example` as `models.config` and update the paths in file.
+2. update the paths in file `models.config` to your relavent file path
 3. Run the TF Serve (Update config file path below)
 
 ```bash
