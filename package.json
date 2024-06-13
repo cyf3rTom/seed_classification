@@ -1,0 +1,37 @@
+{
+  "name": "finalyearproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js",
+    "seed-ui": "npm start --prefix ./seed-ui",
+    "dev": "concurrently \"npm run server\" \"npm run seed-ui\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "axios": "^1.6.8",
+    "bcrypt": "^5.1.1",
+    "concurrently": "^8.2.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "material-ui-dropzone": "^3.5.0",
+    "mongoose": "^8.3.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hot-toast": "^2.4.1",
+    "react-router": "^6.22.3",
+    "react-router-dom": "^6.22.3",
+    "sweetalert": "^2.1.2"
+  }
+}
